@@ -1,0 +1,23 @@
+html, body {
+    background: url('./assets/Preston_back.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
+.App{
+    background-color: rgba(0,0,0,.2);
+    height: 100%;
+}
+
+@media screen and (max-width:800px){
+    html, body{
+        background-color: rgb(255, 255, 255);
+        background-size:cover;
+        background-attachment: fixed;
+        height: auto;
+        width: auto;
+    }
+}
